@@ -13,8 +13,12 @@ The generator will print out the code you need to copy into your test file (abov
 
 ## Run for all test Swift files in a directory
 
-```swift
+```
 ➜ for i in *swift; do swift ../../../SwiftXCTestLinuxNameGenerator/SwiftXCTestLinuxNameGenerator.swift $PWD/$i; done
+```
+
+Output:
+```
 Using /Users/honzadvorsky/Documents/Jay/Tests/Jay/ConstsTests.swift
 Copy the lines below into your testcase file
 ----------------------------------------------
