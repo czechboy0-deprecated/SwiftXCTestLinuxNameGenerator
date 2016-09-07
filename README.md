@@ -1,7 +1,7 @@
-# [DEPRICATED] SwiftXCTestLinuxNameGenerator
+# [DEPRECATED] SwiftXCTestLinuxNameGenerator
 Script to generate test Swift function names for XCTest on Linux
 
-# :warning: While this project was never really maintained, it's now officially DEPRICATED. It will receive no further maintenance.
+# :warning: While this project was never really maintained, it's now officially DEPRECATED. It will receive no further maintenance.
 
 ## Why?
 Currently when using XCTest on Linux you have to manually declare all tests to be ran, which is an annoying chore that can be automated with this super naive generator. Just run it in your test directory and it will print out exactly the code that you need to copy into your test classes.
